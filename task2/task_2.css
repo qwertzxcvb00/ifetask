@@ -137,14 +137,51 @@
 	padding:10px;
 }
 
-#msginput label{
-	
+
+#msginput div{
+	margin:1px;
 }
 
 #msginput input{
 	margin-left:200px;
 	margin:5px;
 	height:18px;
+	
+}
+
+#myemail{
+	position:relative;
+	padding-left:228px;
+}
+
+#password {
+	position:relative;
+	padding-left:257px;
+}
+
+#passwordsec{
+	position:relative;
+	padding-left:227px;
+}
+
+#mysex{
+	position:relative;
+	padding-left:304px;
+}
+
+#mycity{
+	position:relative;
+	padding-left:307px;
+}
+
+#myhobby{
+	position:relative;
+	padding-left:304px;
+}
+
+#mydiscribe{
+	position:relative;
+	padding-left:278px;
 }
 
 #msginput span{

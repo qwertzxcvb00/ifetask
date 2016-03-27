@@ -130,29 +130,29 @@
 <div id="accoblock">
 	<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 	<form id="msginput">
-		<div>
+		<div id="myemail">
 			<label>请输入邮箱地址</label>
-			<input type="text" placeholder="这是一个文本输入框" name="email"><br>
+			<input class="inputbox" type="text" placeholder="这是一个文本输入框" name="email" /><br />
 			<span>邮箱地址请按要求格式输入</span>
 			<br />
 		</div>
-		<div>
+		<div id="password">
 			<label>请输入密码</label>
-			<input type="password" placeholder="这是一个文本输入框" name="pass">
+			<input  type="password" placeholder="这是一个文本输入框" name="pass" />
 			<br />
 		</div>
-		<div>
+		<div id="passwordsec">
 			<label>请重复输入密码</label>
-			<input type="password" placeholder="这是一个文本输入框" name="verifypass"><br>
-			<span>密码请为6-16位英文数字</span><br>
+			<input class="inputbox" type="password" placeholder="这是一个文本输入框" name="verifypass" /><br />
+			<span>密码请为6-16位英文数字</span><br />
 		</div>
-		<div>
-			<label>性别：</label>
-			<input type="radio" name="性别" value="male" checked="checked"/><label>男</label>
+		<div id="mysex">
+			<label>性别</label>
+			<input  id="" type="radio" name="性别" value="male" checked="checked"/><label>男</label>
 			<input type="radio" name="性别" value="female" checked="checked"/><label>女</label>
 			<br />
 		</div>
-		<div>
+		<div id="mycity">
 			<label>城市</label>
 			<select name="city">
 				<option value="beijing" selected="selected">北京</option>
@@ -162,14 +162,14 @@
 			</select>
 			<br />
 		</div>
-		<div>
+		<div id="myhobby">
 			<label>爱好</label>
 			<input type="checkbox" name="hobby" />运动
 			<input type="checkbox" name="hobby" />艺术
 			<input type="checkbox" name="hobby" />科学
 			<br />
 		</div>
-		<div>
+		<div id="mydiscribe">
 			<label>个人描述</label>
 			<textarea>这是一个多行输入框，输入您的个人描述</textarea>
 			<br />
